@@ -1,0 +1,47 @@
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+#wrapper {
+	margin:auto;
+	width:800px;
+	height:600px;
+	position:relative;
+}
+
+.option_1 {	background: url('http://badanie.pollster.pl/static/m/img/background_1.jpg') no-repeat;}
+.option_2 {	background: url('http://badanie.pollster.pl/static/m/img/background_2.jpg') no-repeat;}
+
+#text {
+	position:absolute;
+}
+
+#button {
+	display:block;
+	width:244px;
+	height:94px;
+	position:absolute;
+	top:408px;
+	left:13px;
+}
+
+.button_1 { background: url('http://badanie.pollster.pl/static/m/img/button_1.png') no-repeat; }
+.button_2 { background: url('http://badanie.pollster.pl/static/m/img/button_2.png') no-repeat; }
