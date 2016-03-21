@@ -59,10 +59,12 @@ Model.prototype = {
         this.tpl = newLink;
       },
       timer: function(time){
-        if(new Date().getTime() >= time){
-            this.remove_all();
+        for(var i in pop0){
+          if(pop0[i].end <= new Date().getTime()){
+            pop0.splice(pop0.indexOf(pop0[i]), 1);
         }
       }
+   }
 };
 
 Model.prototype.remove_all = function() {
